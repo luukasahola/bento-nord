@@ -3,7 +3,7 @@ var today = new Date();
 var hour = today.getHours();
 
 // Here you can change your name
-var name = 'John Doe';
+var name = 'Luukas';
 
 // Here you can change your greetings
 var gree1 = 'Go to Sleep! ';
@@ -14,9 +14,9 @@ var gree5 = 'Good evening ';
 var gree6 = 'Good evening ';
 
 // Define the hours of the greetings
-if (hour >= 23 && hour < 5) {
+if (hour >= 23 && hour < 6) {
     document.getElementById('greetings').innerText = gree1 + name;
-} else if (hour >= 6 && hour < 12) {
+} else if (hour >= 7 && hour < 12) {
     document.getElementById('greetings').innerText = gree2 + name;
 } else if (hour >= 12 && hour < 17) {
     document.getElementById('greetings').innerText = gree3 + name;
